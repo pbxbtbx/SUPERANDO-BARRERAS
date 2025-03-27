@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SUPERANDO BARRERAS</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2439/2439879.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--HEADER-->
+  <header>
+    <h1>SUPERANDO BARRERAS</h1>
+    <h2>FARO DIGITAL EDUCATIVO</h2>
+    <nav>
+      <ul>
+        <li><a href="#docentes">Docentes</a></li>
+        <li><a href="#alumnos">Alumnos</a></li>
+        <li><a href="#neae">NEAE</a></li>
+        <li><a href="#familias">Familias</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- 🔍 BUSCADOR -->
+<section class="buscador">
+    <form action="#" method="get">
+      <input type="text" name="q" placeholder="Buscar recursos..." />
+      <button type="submit">Buscar</button>
+    </form>
+  </section>
+
+  <!-- INTRODUCCIÓN -->
+  <section class="intro">
+    <h2>¡BIENVENIDOS/AS A SUPERANDO BARRERAS!</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/2439/2439879.png" alt="Icono del faro" class="icono" width="150px"/>
+    <p>Este faro digital está pensado para guiar a toda la comunidad educativa hacia recursos gratuitos, de calidad y fáciles de usar. Aquí aprenderás a aprovechar herramientas digitales abiertas según tu rol en la comunidad educativa.</p>
+  </section>
+
+  <section class="video">
+    <h2>¿Cómo usar el Faro digital?</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TU_ID_DE_VIDEO" 
+      title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <hr  color="white"/>
+  
+
+  <!-- CATEGORÍAS -->
+  <section class="categorias">
+    <div class="categoria" id="docentes">
+      <a href="docentes.html">
+        <img src="https://media.istockphoto.com/id/1171911961/es/vector/profesora-con-libros-y-pizarra-ilustraci%C3%B3n-conceptual-para-la-escuela-la-educaci%C3%B3n-la.jpg?s=612x612&w=0&k=20&c=DYMsHJhZlQUV0ui08F9FU2tljk94NBl2M_ITGcyjVco=" alt="Recurso para docentes" width="100px" />
+        <h3>Docentes</h3>
+      </a>
+    </div>
+
+    <div class="categoria" id="alumnos">
+      <a href="alumnos.html">
+        <img src="https://media.istockphoto.com/id/1260329669/es/vector/personajes-masculinos-y-femeninos-peque%C3%B1os-leyendo-y-trabajando-en-el-ordenador-port%C3%A1til.jpg?s=612x612&w=0&k=20&c=c4DtgTChTJ4kydgPFOq2BwCVdmlXIk_koBlgOI9Ljto=" alt="Recurso para alumnos" width="100px" />
+        <h3>Alumnos</h3>
+      </a>
+    </div>
+
+    <div class="categoria" id="neae">
+      <a href="neae.html">
+        <img src="https://media.istockphoto.com/id/1253505221/es/vector/voluntarios-estilizados-ayudan-a-la-caridad-y-comparten-la-esperanza.jpg?s=612x612&w=0&k=20&c=7jP1V9DOLI3Z88gOVAbsxwQiVqkSO3vmZvTMfS63a40=" alt="Recurso para NEAE" width="100px" />
+        <h3>NEAE</h3>
+      </a>
+    </div>
+
+    <div class="categoria" id="familias">
+      <a href="familias.html">
+        <img src="https://media.istockphoto.com/id/1222742416/es/vector/iconos-planos-de-avatar-de-personas-la-ilustraci%C3%B3n-vectorial-inclu%C3%ADa-icono-como-hombre.jpg?s=612x612&w=0&k=20&c=6FxC_v_W1zR6p7ZSxIoF0_bsq2etZWkk5nZpwPjl4pY=" alt="Recurso para familias" width="100px" />
+        <h3>Familias</h3>
+      </a>
+    </div>
+  </section>
+
+  <hr  color="white"/>
+
+  <!-- FORMULARIO DE EXPERIENCIAS -->
+
+<section class="formulario">
+    <h2>Comparte tu experiencia</h2>
+    <p>¿Has usado este faro digital? Cuéntanos cómo te ha ayudado.</p>
+    <form action="#" method="post">
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+  
+      <label for="rol">Soy:</label><br>
+      <select id="rol" name="rol" required>
+        <option value="">Selecciona una opción</option>
+        <option value="docente">Docente</option>
+        <option value="alumno">Alumno</option>
+        <option value="neae">NEAE</option>
+        <option value="familia">Familia</option>
+        <option value="otro">Otro</option>
+      </select><br><br>
+  
+      <label for="mensaje">Tu experiencia:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+  
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  
+
+    <!-- 📬 FOOTER -->
+
+    <footer>
+        <hr />
+        <p>Síguenos en redes sociales:</p>
+        <ul class="rrss">
+          <li><a href="#" target="_blank">Instagram</a></li>
+          <li><a href="#" target="_blank">X</a></li>
+          <li><a href="#" target="_blank">TikTok</a></li>
+          <li><a href="#" target="_blank">Facebook</a></li>
+        </ul>
+        <p>Contacto: <a href="mailto:info@superandobarreras.com">info@superandobarreras.com</a></p>
+        <p>© 2025 Faro Digital Educativo - Superando Barreras</p>
+        <img src="https://cdn-icons-png.flaticon.com/512/2439/2439879.png" alt="Icono del faro" class="icono" width="50px">
+    </footer>
+    </body>
+    </html>
+</body>
+</html>
+
