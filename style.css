@@ -9,7 +9,7 @@
   body {
     font-family: "Winky Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
     background: linear-gradient(135deg, #244372, #3c9d6e);
     color: #333;
@@ -17,6 +17,19 @@
     padding: 20px;
   }
     
+  a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
   /* === HEADER === */
   header {
     background-color: white ;
@@ -132,7 +145,9 @@
     text-align: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  
+  .categoriabox{
+    height: 110px;
+  }
   .categoria img {
     width: 100px;
     height: auto;
@@ -184,7 +199,7 @@
   .formulario select,option{
     font-family: "Winky Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 }
   .formulario button {
